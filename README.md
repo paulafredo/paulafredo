@@ -3,11 +3,7 @@
 ## 🕶️ À propos de moi
 - 🎮 **Master du gaming** et passionné d'**informatique**.
 - 🌱 **Codeur en formation** - Je dévore Python et explore sans relâche de nouvelles technologies.
-- 📫 On peut m'atteindre ici : [hadjicostapaul@gmail.com](mailto:hadjicostapaul@gmail.com)
 - ⚡ **Fun fact** : J'aime coder plus que tout... sauf quand Parcoursup me fait un bug de logique ! 😂
-
-## 🌐 Mes connexions dans la matrice
-- [LinkedIn](https://www.linkedin.com/in/paul-hadjicosta-3143b4234/)
 
 ## 📊 Mes stats GitHub
 ![Profile views](https://komarev.com/ghpvc/?username=paulalfredo&label=Profile%20views&color=green&style=plastic)
