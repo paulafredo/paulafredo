@@ -16,3 +16,21 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![GSAP](https://img.shields.io/badge/gsap-%2388CE02.svg?style=for-the-badge&logo=greensock&logoColor=white)
+
+
+<div align="center">
+  <h2 align="center">📊 Statistics</h2>
+
+  <!-- GitHub Readme Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=paulafredo&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulafredo&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+
+  <!-- Streak Stats -->
+ <img src="https://streak-stats.demolab.com/?user=paulafredo&theme=tokyonight_duo&hide_border=true&mode=weekly" alt="GitHub Streak" />
+
+</div>
+
+
+
