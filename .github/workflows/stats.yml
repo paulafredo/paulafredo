@@ -1,0 +1,21 @@
+name: Generate GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Tous les jours à minuit
+  workflow_dispatch:     # Permet de lancer manuellement
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate Stats Card
+        uses: anuraghazra/github-readme-stats@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Update README with stats (optionnel)
+        run: echo "Les stats sont à jour !"  # Tu peux automatiser une update ici
