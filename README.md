@@ -21,9 +21,7 @@
 <div align="center">
   <h2 align="center">📊 Statistics</h2>
 
-  <!-- GitHub Readme Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=paulalfredo&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-
+ 
   <!-- Top Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulafredo&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 
