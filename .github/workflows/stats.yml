@@ -1,21 +1,30 @@
-name: Generate GitHub Stats
+name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Tous les jours à minuit
-  workflow_dispatch:     # Permet de lancer manuellement
+    - cron: "0 0 * * *"  # Daily
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
+  update_stats:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Generate Stats Card
-        uses: anuraghazra/github-readme-stats@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-
-      - name: Update README with stats (optionnel)
-        run: echo "Les stats sont à jour !"  # Tu peux automatiser une update ici
+      - uses: actions/checkout@v3
+      
+      - name: Update stats
+        uses: anuraghazra/github-readme-stats@latest
+        with:
+          theme: tokyonight
+          show_icons: true
+          count_private: true
+          
+      - name: Commit changes
+        run: |
+          git config --global user.name "Paul Alfredo"
+          git config --global user.email "ton@email.com"
+          git add .
+          git commit -m "📊 Update GitHub stats"
+          git push
