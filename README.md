@@ -2,8 +2,10 @@
 
 ## 🕶️ À propos de moi
 - 🎮 **Master du gaming** et passionné d'**informatique**.
-- 🌱 **Codeur en formation** - Je dévore Python et explore sans relâche de nouvelles technologies.
+- 🌱 **Codeur en formation** – Je dévore Python et explore sans relâche de nouvelles technologies.
 - ⚡ **Fun fact** : J'aime coder plus que tout... sauf quand Parcoursup me fait un bug de logique ! 😂
+- 📚 **Actuellement autodidacte** : j'apprends **C#** et **Python** tous les jours pour m'améliorer.
+
 
 ## 📊 Mes stats GitHub
 ![Profile views](https://komarev.com/ghpvc/?username=paulalfredo&label=Profile%20views&color=green&style=plastic)
