@@ -27,8 +27,7 @@
   <!-- Top Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulafredo&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 
-  <!-- Streak Stats -->
- <img src="https://streak-stats.demolab.com/?user=paulafredo&theme=tokyonight_duo&hide_border=true&mode=weekly" alt="GitHub Streak" />
+
 
 </div>
 
